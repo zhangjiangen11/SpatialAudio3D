@@ -1,4 +1,4 @@
-# SpatialAudio3D
+# 🎧 SpatialAudio3D
 SpatialAudio3D is a drop-in Godot 4 plugin that transforms `AudioStreamPlayer3D` into a full spatial acoustics system. It fires raycasts from each sound source to detect nearby surfaces, placing virtual reflection points that play back reverb with delay and room size derived from the actual geometry around them. Occlusion behind walls smoothly rolls off high frequencies, and a dual-player crossfade system eliminates the audible clicks that occur when changing audio delay mid-playback. The result is an environment that sounds like it has walls, rooms, and air — with no manual setup beyond dropping the node into your scene.
 
 ![SpatialAudio3D](/screenshots/illustration.jpg)
